@@ -1,0 +1,33 @@
+# Prototype profile. Review all public information before promoting the website.
+name: "Minseop Shin"
+short_name: "Minseop"
+initials: "MS"
+role: "Graduate researcher"
+department: "Mathematical Sciences"
+institution: "KAIST"
+location: "Daejeon, South Korea"
+email: "fisherson0225@kaist.ac.kr"
+intro: "I study the long-time behavior of nonlinear dynamics on spaces of probability measures, and their connections to optimization and the mathematical foundations of machine learning."
+about: "I am a graduate researcher at KAIST working at the interface of analysis, probability, optimal transport, and theoretical machine learning. My interests include Wasserstein gradient flows, McKean–Vlasov equations, mean-field learning dynamics, and the mathematical structure of Transformer models."
+research_tags:
+  - "Optimal transport"
+  - "Wasserstein gradient flows"
+  - "McKean–Vlasov equations"
+  - "Mean-field learning"
+  - "Transformer theory"
+links:
+  google_scholar: ""
+  github: "https://github.com/MSShin03"
+  orcid: ""
+  cv_pdf: ""
+education:
+  - school: "KAIST"
+    qualification: "Graduate studies — exact degree and dates to be confirmed"
+    dates: "Current"
+    detail: "Daejeon, South Korea"
+experience:
+  - title: "Research Intern · KAIRI"
+    organization: "Optimization & Machine Learning Laboratory, KAIST"
+    dates: "Jan 2025 – Feb 2026"
+    detail: "Research in theoretical machine learning. Please verify dates and title."
+last_reviewed: "October 2026"
