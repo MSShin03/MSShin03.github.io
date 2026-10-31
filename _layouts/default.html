@@ -18,7 +18,7 @@
 <a href="{{ '/#about' | relative_url }}">About</a>
 <a href="{{ '/#research' | relative_url }}">Research</a>
 <a href="{{ '/#publications' | relative_url }}">Publications</a>
-<a href="{{ '/notes/' | relative_url }}">Notes</a>
+{% if site.posts.size > 0 %}<a href="{{ '/notes/' | relative_url }}">Notes</a>{% endif %}
 <a href="{{ '/cv/' | relative_url }}">CV</a>
 </nav></div></header>
 <main>{{ content }}</main>
