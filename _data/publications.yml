@@ -20,6 +20,6 @@ publications:
       - {name: "Chulhee Yun"}
     venue: "NeurIPS 2026 Workshop on AI for Stochastic Dynamics (STODY)"
     type: "Workshop"
-    url: "https://chulheeyun.github.io/publication/shin2026in-context/"
-    url_label: "Details"
+    url: "https://openreview.net/forum?id=doKvCxgR1b"
+    url_label: "Read paper"
     note: "Theoretical study of in-context learning in loop Transformers."
