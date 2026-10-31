@@ -13,22 +13,24 @@ An editable, responsive Jekyll website with a minimalist lavender-blue palette i
 | Research interests | `_data/research.yml` |
 | Articles and mathematical notes | `_posts/YYYY-MM-DD-title.md` |
 | Color scheme, typography and layout | `assets/css/style.css` |
+| Profile portrait | `assets/img/profile.webp` |
 | Homepage structure | `index.html` |
 
 The homepage and printable web CV at `/cv/` read the same YAML data files. An external LaTeX CV is **not** automatically parsed by this prototype.
 
 ## Deployment
 
-The repository is presently named `MSShin03.github.io.` **including the extra final period**. GitHub Pages ordinarily requires precisely `MSShin03.github.io` (without that trailing period) to serve the user homepage at `https://msshin03.github.io/`.
+This repository is named `MSShin03.github.io` (without a trailing period), and its Jekyll `baseurl` is empty. It is configured for the homepage at **https://msshin03.github.io/**.
 
-To publish as a user homepage:
+To publish updates, commit changes to the `main` branch. GitHub Pages rebuilds automatically; check **Actions → pages build and deployment** for status.
 
-1. Rename the repository to exactly `MSShin03.github.io` in GitHub Settings → General.
-2. Change `baseurl: "/MSShin03.github.io."` to `baseurl: ""` in `_config.yml`. Keep `url: "https://msshin03.github.io"`.
-3. In Settings → Pages, set **Deploy from a branch**, `main`, `/(root)`.
-4. Wait for a successful Pages build and then visit `https://msshin03.github.io/`.
+To preview locally, install Ruby and Bundler and run `bundle install` followed by `bundle exec jekyll serve`.
 
-For local preview: install Ruby and Bundler, then run `bundle install` and `bundle exec jekyll serve`.
+## Profile image and section headings
+
+The hero portrait is a compressed WebP version of the owner-supplied photograph, kept in `assets/img/profile.webp`. To replace it, upload a new file at that path, or change the image path in `index.html`.
+
+Section labels (for example, "01 / About me") sit above their headings in the main content column. Heading colors and typography can be adjusted in `assets/css/style.css`. Color alternatives are under consideration; no new accent palette has been selected yet.
 
 ## Prototype limitations
 
