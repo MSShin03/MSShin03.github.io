@@ -1,0 +1,9 @@
+---
+layout: default
+title: Notes
+---
+<div class="subpage shell"><a class="back-link" href="{{ '/' | relative_url }}">← Home</a>
+<p class="eyebrow">Writing & expositions</p><h1 class="subpage-title">Mathematical <em>notes.</em></h1>
+<p class="subpage-intro">Occasional writing on analysis, probability, optimal transport, and mathematical machine learning.</p>
+<div class="notes-list">{% for post in site.posts %}<a class="note-card" href="{{ post.url | relative_url }}"><div><span class="note-meta">{{ post.date | date: "%b %Y" }} · {{ post.category | default: 'Mathematical note' }}</span><h3>{{ post.title }}</h3><p>{{ post.summary }}</p></div><span class="note-arrow">↗</span></a>{% endfor %}</div>
+</div>
