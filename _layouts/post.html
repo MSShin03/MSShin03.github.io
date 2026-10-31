@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="article-page shell">
+<a class="back-link" href="{{ '/notes/' | relative_url }}">← All notes</a>
+<div class="article-head"><div class="note-meta">{{ page.date | date: "%B %d, %Y" }} · {{ page.category | default: 'Mathematical note' }}</div><h1>{{ page.title }}</h1><p>{{ page.summary }}</p>{% if page.demo %}<span class="demo-label">Demonstration article · replace with your own writing</span>{% endif %}</div>
+<div class="article-prose">{{ content }}</div><div class="article-bottom"><a href="{{ '/notes/' | relative_url }}">← Back to notes</a></div>
+</article>
