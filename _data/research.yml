@@ -1,0 +1,13 @@
+areas:
+  - number: "01"
+    symbol: "∇"
+    title: "Wasserstein geometry"
+    description: "Gradient flows on spaces of probability measures, functional inequalities, convergence rates, and the geometry of nonconvex energies."
+  - number: "02"
+    symbol: "μ"
+    title: "Mean-field dynamics"
+    description: "McKean–Vlasov equations, interacting particle systems, and the long-time behavior of Langevin-type learning dynamics."
+  - number: "03"
+    symbol: "T"
+    title: "Mathematics of learning"
+    description: "Theoretical understanding of Transformer architectures, in-context learning, and mean-field descriptions of neural networks."
