@@ -1,0 +1,25 @@
+# The homepage and web CV draw from this list.
+publications:
+  - title: "Local exponential stability of mean-field Langevin descent–ascent and associated particle system"
+    year: 2026
+    authors:
+      - {name: "Geuntaek Seo"}
+      - {name: "Minseop Shin", self: true}
+      - {name: "Pierre Monmarché"}
+      - {name: "Beomjun Choi"}
+    venue: "arXiv preprint"
+    type: "Preprint"
+    url: "https://arxiv.org/abs/2602.01564"
+    url_label: "Read paper"
+    note: "Local exponential stability in Wasserstein space and a long-time particle-system counterpart."
+  - title: "In-Context Learning of Hidden Markov Models by Loop Transformers"
+    year: 2026
+    authors:
+      - {name: "Minseop Shin", self: true}
+      - {name: "Jaeyoung Cha"}
+      - {name: "Chulhee Yun"}
+    venue: "NeurIPS 2026 Workshop on AI for Stochastic Dynamics (STODY)"
+    type: "Workshop"
+    url: "https://chulheeyun.github.io/publication/shin2026in-context/"
+    url_label: "Details"
+    note: "Theoretical study of in-context learning in loop Transformers."
