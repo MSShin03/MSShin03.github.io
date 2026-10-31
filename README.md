@@ -2,7 +2,7 @@
 
 An editable, responsive Jekyll website with a minimalist lavender-blue palette inspired by [Chaewon Moon's academic homepage](https://chae1m.github.io/). This implementation is independently authored.
 
-**This is a draft, not a validated professional CV.** Please review personal and academic details before publicizing it. The notes section includes a clearly marked demonstration article.
+**This is a draft, not a validated professional CV.** Please review personal and academic details before publicizing it. The Notes section and navigation link are automatically hidden when no posts exist.
 
 ## Edit information
 
@@ -32,4 +32,8 @@ For local preview: install Ruby and Bundler, then run `bundle install` and `bund
 
 ## Prototype limitations
 
-Education and experience details, email, public links, workshop information, and research summaries still require personal review. The demo math note is not presented as a published article. A printable CV is provided, but no actual CV PDF has been uploaded.
+Education and experience details, email, public links, workshop information, and research summaries still require personal review. A printable CV is provided, but no actual CV PDF has been uploaded.
+
+## Notes visibility
+
+The homepage Notes section, its surrounding divider, and the Notes navigation link are automatically hidden when `site.posts.size == 0`. When a valid Jekyll post is added under `_posts/`, they appear automatically on the next successful build. The `/notes/` page displays an empty state if visited directly while there are no posts.
