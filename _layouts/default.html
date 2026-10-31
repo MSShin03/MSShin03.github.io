@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ site.description | escape }}">
+<meta name="theme-color" content="#fafafd">
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.data.profile.name }}</title>
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% if page.math %}<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg:{fontCache:'global'}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>{% endif %}
+</head>
+<body class="{{ page.layout_class }}">
+<header class="site-header"><div class="shell header-inner">
+<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">m<span>.</span></span><span class="brand-name">minseop shin</span></a>
+<nav class="nav" aria-label="Main navigation">
+<a href="{{ '/#about' | relative_url }}">About</a>
+<a href="{{ '/#research' | relative_url }}">Research</a>
+<a href="{{ '/#publications' | relative_url }}">Publications</a>
+<a href="{{ '/notes/' | relative_url }}">Notes</a>
+<a href="{{ '/cv/' | relative_url }}">CV</a>
+</nav></div></header>
+<main>{{ content }}</main>
+<footer class="site-footer"><div class="shell footer-inner"><div><strong>{{ site.data.profile.name }}</strong> · {{ site.data.profile.institution }} · {{ site.data.profile.location }}</div><div><a href="mailto:{{ site.data.profile.email }}">Email</a> · Updated {{ site.data.profile.last_reviewed }}</div></div></footer>
+</body></html>
