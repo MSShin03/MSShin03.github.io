@@ -1,7 +1,7 @@
 title: "Minseop Shin | Academic Homepage"
 description: "Research in optimal transport, Wasserstein gradient flows, and mathematical foundations of machine learning."
 url: "https://msshin03.github.io"
-baseurl: "/MSShin03.github.io."
+baseurl: ""
 lang: en
 markdown: kramdown
 permalink: /notes/:title/
