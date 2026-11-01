@@ -1,6 +1,6 @@
 # Minseop Shin — Academic Website Prototype
 
-An editable, responsive Jekyll website with a minimalist **Fresh Teal** color palette (with original layout inspiration from [Chaewon Moon's academic homepage](https://chae1m.github.io/)). This implementation is independently authored.
+An editable, responsive Jekyll website with a minimalist **Clear Sky** color palette (with original layout inspiration from [Chaewon Moon's academic homepage](https://chae1m.github.io/)). This implementation is independently authored.
 
 **This is a draft, not a validated professional CV.** Please review personal and academic details before publicizing it. The Notes section and navigation link are automatically hidden when no posts exist.
 
@@ -30,7 +30,7 @@ To preview locally, install Ruby and Bundler and run `bundle install` followed b
 
 The hero portrait is a compressed WebP version of the owner-supplied photograph, kept in `assets/img/profile.webp`. To replace it, upload a new file at that path, or change the image path in `index.html`.
 
-Section labels (for example, "01 / About me") sit above their headings in the main content column. Heading colors and typography can be adjusted in `assets/css/style.css`. The Fresh Teal palette uses `#20A69B` for decorative highlights, `#0B7169` for high-contrast links and buttons, `#FAFDFC` for the page background, and `#D9F4ED` for light accents. Change the `:root` CSS variables to customize it. Headings remain dark, non-italic text.
+Section labels (for example, "01 / About me") sit above their headings in the main content column. Heading colors and typography can be adjusted in `assets/css/style.css`. The Clear Sky palette uses `#419DD2` for primary accents, `#216A9A` for high-contrast links and buttons, `#DCEFFB` for light accents, `#FAFCFF` for the page background, and `#EAF5FC`, `#EEF7FC`, `#E3F0FA` for the three research cards. Change the `:root` CSS variables to customize it. Headings remain dark, non-italic text.
 
 ## Prototype limitations
 
