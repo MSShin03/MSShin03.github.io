@@ -3,7 +3,7 @@
 :root {
   --ink: #26394B;
   --accent: #216A9A;
-  --paper: #FAFCFF;
+  --paper: #FFFFFF;
   --muted: color-mix(in srgb, var(--ink) 73%, var(--paper));
   --line: color-mix(in srgb, var(--accent) 17%, var(--paper));
   --soft: color-mix(in srgb, var(--accent) 8%, var(--paper));
@@ -54,7 +54,7 @@ h1,h2,h3,p { margin-top: 0; }
 .tag-list { display:flex; gap:8px; flex-wrap:wrap; }
 .tag { display:inline-block; font-size:11px; font-weight:600; line-height:1.2; border:1px solid var(--line); background:var(--soft); color:var(--accent); border-radius:5px; padding:7px 10px; }
 .research-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; }
-.research-card, .research-card:nth-child(2), .research-card:nth-child(3) { min-height:168px; padding:19px; background:#DCEFFB; border:1px solid var(--line); border-radius:9px; }
+.research-card, .research-card:nth-child(2), .research-card:nth-child(3) { min-height:168px; padding:19px; background:#EEF7FD; border:1px solid var(--line); border-radius:9px; }
 .research-card-head { display:flex; align-items:start; justify-content:space-between; margin-bottom:16px; }
 .card-number { font-size:10px; font-weight:700; color:var(--accent); }
 .math-symbol { font:italic 500 25px/.9 var(--serif); color:var(--accent); }
