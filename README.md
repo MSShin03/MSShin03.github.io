@@ -30,7 +30,7 @@ To preview locally, install Ruby and Bundler and run `bundle install` followed b
 
 The homepage currently uses the owner-supplied JPEG at `assets/img/1712297899143.jpg`. To replace it, upload a new photo and update the source path in `index.html`.
 
-The homepage uses numbered main headings (`01. About me`, `02. Research`, `03. Publications`, and `04. Background`, with Notes inserted before Background when published). The layout uses less vertical whitespace and three base colors, defined in `assets/css/style.css`.
+The homepage uses numbered main headings (`01/ About me`, `02/ Research`, `03/ Publications`, and `04/ Background`, with Notes inserted before Background when published). The layout uses balanced, moderate whitespace and three base colors, defined in `assets/css/style.css`.
 
 The hero's Google Scholar and LinkedIn icons temporarily point to **name searches**, not verified personal profiles. Add your actual URLs under `links.google_scholar` and `links.linkedin` in `_data/profile.yml`; the icon links update automatically. The email icon uses the configured address.
 

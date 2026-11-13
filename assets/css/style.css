@@ -18,7 +18,7 @@ a { color: inherit; text-decoration: none; }
 a:hover { color: var(--accent); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 h1,h2,h3,p { margin-top: 0; }
-.shell { width: min(1080px, calc(100% - 64px)); margin-inline: auto; }
+.shell { width: min(1040px, calc(100% - 84px)); margin-inline: auto; }
 .site-header { border-bottom: 1px solid var(--line); background: var(--paper); }
 .header-inner { min-height: 70px; display:flex; align-items:center; justify-content:space-between; gap: 24px; }
 .brand { display:flex; align-items:center; gap: 10px; white-space: nowrap; }
@@ -28,7 +28,7 @@ h1,h2,h3,p { margin-top: 0; }
 .nav { display:flex; justify-content:flex-end; gap:22px; flex-wrap:wrap; }
 .nav a { color:var(--muted); font-size:12px; font-weight:600; }
 .nav a:hover { color:var(--accent); }
-.hero { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(220px,.7fr); gap:50px; align-items:center; padding-block:58px 55px; }
+.hero { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(220px,.7fr); gap:54px; align-items:center; padding-block:68px 65px; }
 .hero h1 { font:500 clamp(52px,6.6vw,76px)/1.07 var(--sans); letter-spacing:-.055em; margin:0 0 15px; }
 .hero h1 em, .section h2 em, .subpage-title em { color:inherit; font-style:normal; }
 .hero-role { font-size:13px; font-weight:700; color:var(--muted); margin:0 0 16px; }
@@ -43,7 +43,7 @@ h1,h2,h3,p { margin-top: 0; }
 .visual-caption { display:flex; align-items:center; gap:7px; text-align:center; color:var(--muted); font-size:11px; }
 .status-dot { height:7px; width:7px; flex-shrink:0; border-radius:50%; background:var(--accent); }
 .divider { border-bottom:1px solid var(--line); }
-.section { display:block; padding:40px 0 45px; }
+.section { display:block; padding:47px 0 52px; }
 .section-body { width:100%; }
 .section h2 { font:500 clamp(30px,3.4vw,40px)/1.2 var(--sans); letter-spacing:-.035em; margin:0 0 17px; color:var(--ink); }
 .section-top { display:flex; gap:18px; justify-content:space-between; align-items:baseline; margin-bottom:17px; }
@@ -85,7 +85,7 @@ h1,h2,h3,p { margin-top: 0; }
 .timeline-date, .timeline-entry span { font-size:11px; color:var(--muted); }
 .timeline-entry h3 { font-size:13px; margin:0 0 2px; }
 .timeline-entry p { font-size:12px; color:var(--muted); margin:0; }
-.last-section { padding-bottom:57px; }
+.last-section { padding-bottom:65px; }
 .site-footer { border-top:1px solid var(--line); background:var(--paper); }
 .footer-inner { display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; padding:20px 0 25px; color:var(--muted); font-size:11px; }
 .footer-inner a { color:var(--accent); }
@@ -130,25 +130,25 @@ h1,h2,h3,p { margin-top: 0; }
 .cv-pub strong, .cv-pub b { color:var(--ink); }
 .cv-footnote { font-size:10px; color:var(--muted); margin:17px 0 0; }
 @media(max-width:870px) {
-  .shell { width:calc(100% - 46px); }
+  .shell { width:calc(100% - 60px); }
   .hero { gap:30px; }
   .research-grid { gap:10px; }
   .research-card { padding:17px; }
   .nav { gap:15px; }
 }
 @media(max-width:650px) {
-  .shell { width:calc(100% - 36px); }
+  .shell { width:calc(100% - 44px); }
   .header-inner { flex-direction:column; align-items:flex-start; padding:13px 0; gap:10px; }
   .nav { justify-content:flex-start; gap:14px; }
   .nav a { font-size:11px; }
-  .hero { display:flex; flex-direction:column-reverse; align-items:stretch; gap:24px; padding-block:30px 35px; }
+  .hero { display:flex; flex-direction:column-reverse; align-items:stretch; gap:26px; padding-block:36px 41px; }
   .hero-visual { display:flex; align-items:center; justify-content:flex-start; gap:15px; }
   .profile-photo { width:123px; flex-shrink:0; }
   .visual-caption { text-align:left; }
   .hero h1 { font-size:clamp(43px,11vw,66px); margin-bottom:10px; }
   .hero-intro { font-size:14px; }
   .social-links { margin-top:18px; }
-  .section { padding:30px 0 34px; }
+  .section { padding:34px 0 39px; }
   .section h2 { font-size:clamp(27px,7vw,36px); }
   .section-top { display:block; }
   .section-top h2 { margin-bottom:7px; }
