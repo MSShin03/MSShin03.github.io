@@ -1,6 +1,6 @@
 # Minseop Shin — Academic Website Prototype
 
-An editable, responsive Jekyll website with a minimalist **Clear Sky** color palette (with original layout inspiration from [Chaewon Moon's academic homepage](https://chae1m.github.io/)). This implementation is independently authored.
+An editable, responsive Jekyll website with a compact **three-color blue, ink, and off-white** palette (with original layout inspiration from [Chaewon Moon's academic homepage](https://chae1m.github.io/)). This implementation is independently authored.
 
 **This is a draft, not a validated professional CV.** Please review personal and academic details before publicizing it. The Notes section and navigation link are automatically hidden when no posts exist.
 
@@ -28,9 +28,11 @@ To preview locally, install Ruby and Bundler and run `bundle install` followed b
 
 ## Profile image and section headings
 
-The hero portrait is a compressed WebP version of the owner-supplied photograph, kept in `assets/img/profile.webp`. To replace it, upload a new file at that path, or change the image path in `index.html`.
+The homepage currently uses the owner-supplied JPEG at `assets/img/1712297899143.jpg`. To replace it, upload a new photo and update the source path in `index.html`.
 
-Section labels (for example, "01 / About me") sit above their headings in the main content column. Heading colors and typography can be adjusted in `assets/css/style.css`. The Clear Sky palette uses `#419DD2` for primary accents, `#216A9A` for high-contrast links and buttons, `#DCEFFB` for light accents, `#FAFCFF` for the page background, and `#EAF5FC`, `#EEF7FC`, `#E3F0FA` for the three research cards. Change the `:root` CSS variables to customize it. Headings remain dark, non-italic text.
+The homepage uses numbered main headings (`01. About me`, `02. Research`, `03. Publications`, and `04. Background`, with Notes inserted before Background when published). The layout uses less vertical whitespace and three base colors, defined in `assets/css/style.css`.
+
+The hero's Google Scholar and LinkedIn icons temporarily point to **name searches**, not verified personal profiles. Add your actual URLs under `links.google_scholar` and `links.linkedin` in `_data/profile.yml`; the icon links update automatically. The email icon uses the configured address.
 
 ## Prototype limitations
 
